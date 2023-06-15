@@ -35,3 +35,21 @@ const people = [
     {name: 'Mary', age: 30},
     {name: 'Bob', age: 35}
 ];
+
+const peopleNames = people.map(function (item) {
+return item.name
+})
+
+console.log(people);
+console.log(peopleNames);
+
+
+
+
+
+
+
+const squaredNumbers = numbers.map(item => item * item);
+console.log(squaredNumbers);
+
+
